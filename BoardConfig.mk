@@ -164,8 +164,8 @@ USE_MINIKIN := true
 BOARD_CHARGER_SHOW_PERCENTAGE := true
 
 # Init
-PRODUCT_COPY_FILES += system/core/rootdir/root/init.zygote32.rc:root/init.zygote32.rc
-PRODUCT_COPY_FILES += system/core/rootdir/root/init.zygote64_32.rc:root/init.zygote64_32.rc
+PRODUCT_COPY_FILES += system/core/rootdir/init.zygote32.rc:root/init.zygote32.rc
+PRODUCT_COPY_FILES += system/core/rootdir/init.zygote64_32.rc:root/init.zygote64_32.rc
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.zygote=zygote64_32
 
 # Sepolicy
