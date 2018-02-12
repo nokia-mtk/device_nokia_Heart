@@ -14,6 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+LOCAL_PATH := device/nokia/Heart
 
 # inherit from the proprietary version
 -include vendor/nokia/Heart/BoardConfigVendor.mk
@@ -54,7 +55,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # Kernel
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/rootdir/root/kernel
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/rootdir/kernel
 BOARD_KERNEL_BASE := 0x40000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_RAMDISK_OFFSET := 0x04000000
