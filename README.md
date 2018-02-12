@@ -5,7 +5,7 @@ A mid-range smartphone from HMD Global.
 - The Nokia 3
 - codename : Heart
 
-<img src="https://raw.githubusercontent.com/nokia-mtk/device_nokia_Heart/assert/nokia-3.jpg" />
+![nk3](/assert/nokia-3.jpg "NOKIA-3")
 
 Basic   | Spec Sheet
 -------:|:-------------------------
